@@ -15,7 +15,7 @@ public class OnlineShop {
             new ShopItem("Cola", 30),
             new ShopItem("Sprite", 25)
     ));
-    private final HashMap<Person, List<ShopItem>> shoppingCarts = new HashMap<>();
+    private final HashMap<Person, List<ShopItem>> carts = new HashMap<>();
 
     public OnlineShop(Bank bank, Person shopOwner) {
         this.bank = bank;
