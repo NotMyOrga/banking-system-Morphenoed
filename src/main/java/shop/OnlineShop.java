@@ -9,7 +9,7 @@ import java.util.List;
 
 public class OnlineShop {
     private final Bank bank;
-    private final Person shopOwner;
+    private final Person spOwner;
     private final List<ShopItem> availableItems = new ArrayList<>(List.of(
             new ShopItem("Spezi", 20),
             new ShopItem("Cola", 30),
@@ -19,7 +19,7 @@ public class OnlineShop {
 
     public OnlineShop(Bank bank, Person shopOwner) {
         this.bank = bank;
-        this.shopOwner = shopOwner;
+        this.spOwner = shopOwner;
     }
 
     public List<ShopItem> getAvailableItems() {
